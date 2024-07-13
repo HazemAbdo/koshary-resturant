@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class CartModel extends ChangeNotifier {
   final List _kosharyOptions = const [
     ["Super Saver", "4.00", "lib/images/koshary-1.jpg", Colors.green],
-    ["Small koshary", "2.50", "lib/images/koshary-2.jpg", Colors.yellow],
+    ["Small koshary", "2.50", "lib/images/koshary-2.jpg", Colors.red],
     ["Chicken koshary", "12.80", "lib/images/koshary-3.jpg", Colors.brown],
     ["Kids koshary", "1.00", "lib/images/koshary-4.jpg", Colors.blue],
   ];

@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         title: Text(
-          'Sydney, Australia',
+          'Giza, Egypt',
           style: TextStyle(
             fontSize: 16,
             color: Colors.grey[700],
@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
-              "Let's order fresh items for you",
+              "Let's order fresh koshary for you",
               style: GoogleFonts.notoSerif(
                 fontSize: 36,
                 fontWeight: FontWeight.bold,

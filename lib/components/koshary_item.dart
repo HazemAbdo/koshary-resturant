@@ -32,10 +32,7 @@ class KosharyItem extends StatelessWidget {
             // item image
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 40.0),
-              child: Image.asset(
-                imagePath,
-                height: 64,
-              ),
+              child: Image.asset(imagePath, height: 64, fit: BoxFit.contain),
             ),
 
             // item name
