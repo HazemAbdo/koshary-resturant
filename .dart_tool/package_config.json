@@ -75,7 +75,7 @@
     },
     {
       "name": "google_fonts",
-      "rootUri": "file:///home/hazemabdo/.pub-cache/hosted/pub.dev/google_fonts-2.1.0",
+      "rootUri": "file:///home/hazemabdo/.pub-cache/hosted/pub.dev/google_fonts-4.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -272,7 +272,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2024-07-13T08:21:07.442666Z",
+  "generated": "2024-07-13T08:55:38.506919Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///home/hazemabdo/Downloads/flutter_linux_3.22.2-stable/flutter",
