@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:kosharyresturant/components/koshary_item.dart';
+import 'package:kosharyresturant/pages/cart_page.dart';
 import 'package:provider/provider.dart';
 import '../model/cart_model.dart';
 
@@ -50,12 +52,12 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         onPressed: () => Navigator.push(
           context,
           MaterialPageRoute(
             builder: (context) {
-              return const Placeholder();
+              return const CartPage();
             },
           ),
         ),
@@ -120,7 +122,15 @@ class _HomePageState extends State<HomePage> {
                     childAspectRatio: 1 / 1.2,
                   ),
                   itemBuilder: (context, index) {
-                    return const Placeholder();
+                    return KosharyItem(
+                      itemName: value.shopItems[index][0],
+                      itemPrice: value.shopItems[index][1],
+                      imagePath: value.shopItems[index][2],
+                      color: value.shopItems[index][3],
+                      onPressed: () =>
+                          Provider.of<CartModel>(context, listen: false)
+                              .addItemToCart(index),
+                    );
                   },
                 );
               },
