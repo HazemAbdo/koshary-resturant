@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kosharyresturant/pages/intro_screen.dart';
+import 'package:kosharyresturant/pages/intro_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +11,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Directionality(
-        textDirection: TextDirection.ltr, child: IntroScreen());
+        textDirection: TextDirection.ltr, child: IntroPage());
   }
 }
